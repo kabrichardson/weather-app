@@ -1,0 +1,43 @@
+.location-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-left: 10px;
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
+
+@media (max-width: 768px){
+  h1 {
+      text-wrap: wrap;
+      text-align: center;
+  }
+}
