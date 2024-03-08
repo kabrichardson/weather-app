@@ -11,7 +11,7 @@ router.use(function(req, res, next) {
   
   router.post('/', async(req, res, next) => {
     const { city, state, country} = req.body;
-    const apiKey = "d840fbeab237f986413c4ce5ecf0c0a7";
+    const apiKey = ""; //Use the apiKey provided by OpenWeather.
 
     try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city},${state},${country}&appid=${apiKey}&units=imperial`);
